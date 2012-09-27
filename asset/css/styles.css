@@ -35,13 +35,17 @@ transition: opacity 0.2s ease;
 
 #footer_all{width:100%;background:#333;}
 #footer{width:806px;margin:0 auto;padding:20px 0 50px 25px;background:#101011}
-.footer-col{float:left;width:136px;margin:0 25px 0 0}
-#footer-browse{width:50%;margin:0}
-#footer h3{font-size:12px;font-weight:bold;text-transform:uppercase;margin:0 0 4px 0;color:#999}
+.footer-col{float:left;width:136px;margin:60px 25px 0 0}
+#footer-browse{width:50%;margin:60px 0 0 0}
+#footer h3{font-size:12px;font-weight:bold;text-transform:uppercase;margin:0 0 10px 0;color:#999}
 #footer-browse ul{float:left;margin:0 25px 0 0}
-#footer li{color:#888;font-size:11px;font-weight:bold;text-decoration:none;display:block;padding:8px 0;width:400px}
+#footer li{color:#888;font-size:11px;font-weight:bold;text-decoration:none;display:block;padding:1px 0;width:400px}
 #footer a:hover{color:#fff;text-decoration:none}
-span.h {color:#00C4FD;font-size:14px;}
+#footer-copyright {width:831px;margin: 0 auto;background:#101011;border-top:1px solid #333;bottom:0}
+#footer-copyright p {padding: 5px 20px;color:#666;font-size:11px;background: url(copyright.png) no-repeat left;margin-left:10px;}
+#footer-copyright a{color:#444;text-decoration:none;}
+#footer-copyright a:hover {opacity: .6;}
+span.h {color:#00C4FD;font-size:14px;font-weight:bold}
 
 .pagebar{clear:both;padding:10px 0;background:#111;border-bottom:1px solid #333;}
 .pagebar .break{font-size:13px;margin-left:30px;display:block;padding:10px 20px 0 20px;color:#666;text-decoration:none;}
